@@ -35,5 +35,5 @@ jobs:
       - name: Update Lambda code
         run: |
           aws lambda update-function-code \
-            --function-name ${{ env.LAMBDA_FUNCTION_NAME }} \
+            --function-name ${{ env.LAMBDA_FUNCTION }} \
             --zip-file fileb://backend/process-uploaded-file/lambda.zip
