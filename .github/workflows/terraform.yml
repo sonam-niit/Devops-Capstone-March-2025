@@ -45,4 +45,4 @@ jobs:
       - name: Terraform Apply
         env:
           GZIP: "false"
-        run: terraform destroy -auto-approve
+        run: terraform apply -auto-approve
