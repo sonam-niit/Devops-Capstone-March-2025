@@ -12,3 +12,7 @@
 - dynamoDB table 
     - store data which is uploaded
 
+- everytime when you push this terraform.yml will execute so you can
+- make changes from apply to destroy in last command to it will remove 
+- resources created as these resources are not free to use.
+
