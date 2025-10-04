@@ -2,8 +2,8 @@ name: Deploy Backend Lambda
 
 on:
   push:
-    # paths:
-    #   - "backend/process-uploaded-file/**"
+    paths:
+      - "backend/process-uploaded-file/**"
     branches:
       - main
 
